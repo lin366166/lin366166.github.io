@@ -2,6 +2,8 @@
 title: 关于
 date: 2026-11-06 00:30:00
 type: "about"
+top_img: /img/header-04.webp
+description: '关于这个博客与博主。'
 ---
 
 闲时追番，忙时偷闲；蒜了蒜了，搞不赢的。

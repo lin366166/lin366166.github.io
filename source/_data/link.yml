@@ -1,0 +1,11 @@
+- class_name: 常用站点
+  class_desc: 建站时常用的官方文档
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/
+      avatar: /img/butterfly-icon.webp
+      descr: 快速、简洁且高效的博客框架
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: /img/butterfly-icon.webp
+      descr: 主题文档与配置说明

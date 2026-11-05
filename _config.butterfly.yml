@@ -22,6 +22,8 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  留言板: /message/ || fas fa-comment-dots
   关于: /about/ || fas fa-user
 
 # --------------------------------------
@@ -53,10 +55,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.ico
+favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/butterfly-icon.webp
   effect: false
 
 # Disable all banner images
@@ -66,13 +68,13 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /img/banner.webp
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/header-05.webp
 
 # Note: tag page, not tags page
-tag_img:
+tag_img: /img/header-06.webp
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -80,7 +82,7 @@ tag_img:
 tag_per_img:
 
 # Note: category page, not categories page
-category_img:
+category_img: /img/header-03.webp
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
