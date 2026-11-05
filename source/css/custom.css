@@ -114,3 +114,151 @@
   .about-quote .quote-main { font-size: 18px; }
   .about-quote .quote-sub { font-size: 13px; letter-spacing: 1px; }
 }
+
+/* ===== 友链页：申请友链卡片 ===== */
+#article-container .link-apply {
+  margin: 4px 0 30px;
+  padding: 30px 32px 34px;
+  border: 1px solid #edf0f6;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 6px 24px rgba(31, 45, 71, .05);
+}
+#article-container .link-apply-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+  padding: 0;
+  border: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #1f2733;
+}
+#article-container .link-apply-title::before {
+  content: '';
+  flex: none;
+  width: 5px;
+  height: 24px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #5ab6ff 0%, #2b84dd 100%);
+}
+#article-container .link-apply-subtitle {
+  margin: 0 0 24px;
+  font-size: 15px;
+  color: #8b93a3;
+}
+#article-container .link-apply-rules {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+#article-container .link-apply-rule {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f5f9ff 0%, #eef5ff 100%);
+}
+#article-container .link-apply-rule-icon {
+  flex: none;
+  margin-top: 3px;
+  font-size: 18px;
+  color: #2f8fe0;
+}
+#article-container .link-apply-rule-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #2b3341;
+}
+#article-container .link-apply-rule-desc {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #8b93a3;
+}
+#article-container .link-apply-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 28px;
+}
+#article-container .link-apply-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-width: 168px;
+  padding: 13px 26px;
+  border: 0;
+  border-radius: 999px;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+#article-container .link-apply-btn i { font-size: 15px; }
+#article-container .link-apply-btn-blue {
+  background: linear-gradient(100deg, #3fbdf8 0%, #2b90e6 100%);
+  box-shadow: 0 8px 20px rgba(47, 160, 232, .32);
+}
+#article-container .link-apply-btn-purple {
+  background: linear-gradient(100deg, #8b5cf6 0%, #a855f7 100%);
+  box-shadow: 0 8px 20px rgba(150, 91, 246, .32);
+}
+#article-container .link-apply-btn:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+#article-container .link-apply-btn-blue:hover { box-shadow: 0 12px 24px rgba(47, 160, 232, .42); }
+#article-container .link-apply-btn-purple:hover { box-shadow: 0 12px 24px rgba(150, 91, 246, .42); }
+/* 复制提示 */
+.link-apply-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 48px;
+  z-index: 9999;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: rgba(32, 38, 50, .92);
+  color: #fff;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 12px);
+  transition: opacity .25s ease, transform .25s ease;
+}
+.link-apply-toast.show { opacity: 1; transform: translate(-50%, 0); }
+/* 友链列表：淡蓝描边呼应申请卡片 */
+#article-container .flink .flink-list-item {
+  border: 1px solid #e8f1ff;
+  border-radius: 12px;
+}
+/* 暗色模式适配 */
+[data-theme='dark'] #article-container .link-apply {
+  border-color: #3a4050;
+  background: #242936;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .18);
+}
+[data-theme='dark'] #article-container .link-apply-title,
+[data-theme='dark'] #article-container .link-apply-rule-name { color: #e8ecf4; }
+[data-theme='dark'] #article-container .link-apply-rule {
+  background: linear-gradient(135deg, #2b3444 0%, #273041 100%);
+}
+[data-theme='dark'] #article-container .flink .flink-list-item { border-color: #37405a; }
+@media (max-width: 768px) {
+  #article-container .link-apply { padding: 22px 18px 26px; }
+  #article-container .link-apply-title { font-size: 20px; }
+  #article-container .link-apply-rules { grid-template-columns: 1fr; gap: 12px; }
+  #article-container .link-apply-actions { flex-direction: column; align-items: center; gap: 14px; }
+  #article-container .link-apply-btn { width: 100%; max-width: 260px; }
+}
