@@ -1,35 +1,24 @@
-/* ===== 侧栏：头像区域（按截图排版） ===== */
-#aside-content .card-info .avatar-img {
-  width: 120px;
-  height: 120px;
-}
-#aside-content .author-info-name {
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 3px;
-  line-height: 1.5;
-}
+/* ===== 侧栏：头像下方简介（简约，跟随主题主色） ===== */
 #aside-content .author-info-description {
-  margin-top: 16px;
+  margin-top: 4px;
 }
 #aside-content .author-info-description .author-motto {
-  color: #3f9dff;
-  font-size: 1.4rem;
-  font-weight: 500;
-  letter-spacing: 1px;
+  color: var(--default-bg-color, #49b1f5);
+  font-size: .95rem;
+  font-weight: 400;
+  line-height: 1.9;
+  letter-spacing: .2px;
 }
 #aside-content .author-info-description .motto-line {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  line-height: 1.55;
+  justify-content: center;
+  gap: 1.6em;
 }
 #aside-content .author-info-description .motto-line + .motto-line {
-  margin-top: 8px;
+  margin-top: 2px;
 }
 #aside-content .author-info-description .motto-line span {
-  color: #3f9dff;
-  white-space: nowrap;
+  color: inherit;
 }
 
 /* ===== 归档 / 标签 / 分类 / 友链 / 留言板 / 关于：顶部图只留图，不显示标题文字 ===== */
@@ -101,6 +90,4 @@
   .about-quote { padding: 24px 16px; }
   .about-quote .quote-main { font-size: 18px; }
   .about-quote .quote-sub { font-size: 13px; letter-spacing: 1px; }
-  #aside-content .author-info-name { font-size: 1.7rem; }
-  #aside-content .author-info-description .author-motto { font-size: 1.25rem; }
 }
