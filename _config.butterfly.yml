@@ -151,7 +151,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -167,6 +167,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 闲时追番，忙时偷闲；蒜了蒜了，搞不赢的
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -286,7 +287,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: '<div class="author-motto"><span>闲时追番，忙时偷闲；</span><span>蒜了蒜了，搞不赢的</span></div>'
+    description: '<div class="author-motto"><div class="motto-line"><span>闲时追番</span><span>忙时偷闲</span></div><div class="motto-line"><span>蒜了蒜了</span><span>搞不赢的</span></div></div>'
     button:
       enable: true
       icon: fab fa-github
@@ -1061,6 +1062,7 @@ inject:
   head:
     - '<link rel="stylesheet" href="/css/custom.css">'
   bottom:
+    - '<script src="/js/custom.js"></script>'
     # - <script src="xxxx"></script>
 
 # CDN Settings

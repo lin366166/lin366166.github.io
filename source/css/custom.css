@@ -1,20 +1,61 @@
-/* ===== 侧栏：头像下方的简介 ===== */
+/* ===== 侧栏：头像区域（按截图排版） ===== */
+#aside-content .card-info .avatar-img {
+  width: 120px;
+  height: 120px;
+}
+#aside-content .author-info-name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+#aside-content .author-info-description {
+  margin-top: 16px;
+}
 #aside-content .author-info-description .author-motto {
-  color: #2f7de1;
-  line-height: 1.7;
+  color: #3f9dff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
-#aside-content .author-info-description .author-motto span {
-  display: block;
-  color: #2f7de1;
-  letter-spacing: 0.5px;
+#aside-content .author-info-description .motto-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.55;
 }
-#aside-content .author-info-description .author-motto span + span {
-  margin-top: 12px;
+#aside-content .author-info-description .motto-line + .motto-line {
+  margin-top: 8px;
+}
+#aside-content .author-info-description .motto-line span {
+  color: #3f9dff;
+  white-space: nowrap;
 }
 
 /* ===== 归档 / 标签 / 分类 / 友链 / 留言板 / 关于：顶部图只留图，不显示标题文字 ===== */
 #page-header.not-home-page #page-site-info {
   display: none !important;
+}
+
+/* ===== 当前页面导航项：绿色图标+文字，文字下方绿色横线 ===== */
+#nav .menus_items .menus_item > a.site-page.current,
+#nav .menus_items .menus_item > a.site-page.current:hover,
+#nav .menus_items .menus_item > a.site-page.current i,
+#nav .menus_items .menus_item > a.site-page.current span {
+  color: #22c55e !important;
+}
+#nav .menus_items .menus_item > a.site-page.current::after,
+#nav .menus_items .menus_item > a.site-page.current:hover::after {
+  width: 100% !important;
+  background-color: #22c55e !important;
+  z-index: 1;
+}
+/* 移动端展开菜单同步显示绿色 */
+#menu .site-page.current,
+#menu .site-page.current:hover,
+#menu .site-page.current i,
+#menu .site-page.current span {
+  color: #22c55e !important;
 }
 
 /* ===== 关于页面 ===== */
@@ -60,4 +101,6 @@
   .about-quote { padding: 24px 16px; }
   .about-quote .quote-main { font-size: 18px; }
   .about-quote .quote-sub { font-size: 13px; letter-spacing: 1px; }
+  #aside-content .author-info-name { font-size: 1.7rem; }
+  #aside-content .author-info-description .author-motto { font-size: 1.25rem; }
 }
