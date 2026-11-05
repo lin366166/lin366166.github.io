@@ -49,6 +49,7 @@
 
 /* ===== 下拉后固定导航栏：去掉底部的灰色边框/阴影线 ===== */
 #page-header #nav {
+  -webkit-box-shadow: none !important;
   box-shadow: none !important;
   border: 0 !important;
 }
