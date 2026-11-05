@@ -47,6 +47,12 @@
   color: #22c55e !important;
 }
 
+/* ===== 下拉后固定导航栏：去掉底部的灰色边框/阴影线 ===== */
+#page-header #nav {
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
 /* ===== 关于页面 ===== */
 .about-quote {
   margin: 0 0 34px;
