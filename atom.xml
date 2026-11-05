@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>花老湿</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://lin366166.github.io/</id>
+  <link href="https://lin366166.github.io/" rel="alternate"/>
+  <link href="https://lin366166.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 花老湿</rights>
+  <subtitle>闲时追番，忙时偷闲；蒜了蒜了，搞不赢的</subtitle>
+  <title>花老湿博客</title>
+  <updated>2026-11-05T16:28:32.509Z</updated>
+  <entry>
+    <author>
+      <name>花老湿</name>
+    </author>
+    <category term="生活" scheme="https://lin366166.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随笔" scheme="https://lin366166.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    <content>
+      <![CDATA[<p>站点已经在本地跑起来了，用 <strong>Hexo 8.1.2 + Butterfly 5.7.0</strong> 搭建。</p><span id="more"></span><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 新建文章</span></span><br><span class="line">npx hexo new post <span class="string">&quot;文章标题&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 本地预览（默认 http://localhost:4000）</span></span><br><span class="line">npm start</span><br><span class="line"></span><br><span class="line"><span class="comment"># 生成静态文件到 public/</span></span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure><h2 id="写点什么"><a href="#写点什么" class="headerlink" title="写点什么"></a>写点什么</h2><ul><li>闲时追番</li><li>忙时偷闲</li><li>蒜了蒜了，搞不赢的</li></ul><blockquote><p>这篇是示例文章，可以直接删掉，换成你自己的内容。</p></blockquote><h2 id="小提示"><a href="#小提示" class="headerlink" title="小提示"></a>小提示</h2><p>主题配置不在 <code>themes/</code> 目录里改，而是改根目录下的 <code>_config.butterfly.yml</code>；站点信息改 <code>_config.yml</code>。改完配置需要重启本地服务才能生效。</p>]]>
+    </content>
+    <id>https://lin366166.github.io/2026/11/06/hello-world/</id>
+    <link href="https://lin366166.github.io/2026/11/06/hello-world/"/>
+    <published>2026-11-05T16:30:00.000Z</published>
+    <summary>
+      <![CDATA[<p>站点已经在本地跑起来了，用 <strong>Hexo 8.1.2 + Butterfly 5.7.0</strong> 搭建。</p>]]>
+    </summary>
+    <title>博客搭建完成</title>
+    <updated>2026-11-05T16:28:32.509Z</updated>
+  </entry>
+</feed>

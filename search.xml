@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>博客搭建完成</title>
+    <url>/2026/11/06/hello-world/</url>
+    <content><![CDATA[站点已经在本地跑起来了，用 Hexo 8.1.2 + Butterfly 5.7.0 搭建。
+
+
+常用命令# 新建文章npx hexo new post &quot;文章标题&quot;# 本地预览（默认 http://localhost:4000）npm start# 生成静态文件到 public/npm run build
+
+写点什么
+闲时追番
+忙时偷闲
+蒜了蒜了，搞不赢的
+
+
+这篇是示例文章，可以直接删掉，换成你自己的内容。
+
+小提示主题配置不在 themes/ 目录里改，而是改根目录下的 _config.butterfly.yml；站点信息改 _config.yml。改完配置需要重启本地服务才能生效。
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+</search>
