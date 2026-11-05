@@ -100,3 +100,8 @@ deploy:
   repo: https://github.com/lin366166/lin366166.github.io.git
   branch: main
   message: 'site update: {{ now("YYYY-MM-DD HH:mm:ss") }}'
+  # .deploy_git 是独立仓库，不继承本仓库的提交身份
+  name: lin366166
+  email: 309245133+lin366166@users.noreply.github.com
+  # 连同 .nojekyll 等隐藏文件一起部署
+  ignore_hidden: false
