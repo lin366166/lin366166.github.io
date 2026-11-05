@@ -47,11 +47,27 @@
   color: #22c55e !important;
 }
 
-/* ===== 下拉后固定导航栏：去掉底部的灰色边框/阴影线 ===== */
+/* ===== 下拉后固定导航栏：去掉灰白色方框，与顶部图融合 ===== */
 #page-header #nav {
+  background: transparent !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   border: 0 !important;
+}
+/* 透明后把滚动态的深色文字改回浅色，避免压在深色顶部图上看不清 */
+#page-header.nav-fixed #nav a:not(.current),
+#page-header.nav-fixed #nav span.site-page:not(.current),
+#page-header.nav-fixed #nav .site-name,
+#page-header.nav-fixed #nav #toggle-menu,
+#page-header.nav-fixed #nav #blog-info {
+  color: #fff !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .65) !important;
+}
+#page-header.nav-fixed #nav a:not(.current):hover,
+#page-header.nav-fixed #nav span.site-page:not(.current):hover {
+  color: #49b1f5 !important;
 }
 
 /* ===== 关于页面 ===== */
