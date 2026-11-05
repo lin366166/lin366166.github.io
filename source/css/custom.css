@@ -1,0 +1,63 @@
+/* ===== 侧栏：头像下方的简介 ===== */
+#aside-content .author-info-description .author-motto {
+  color: #2f7de1;
+  line-height: 1.7;
+}
+#aside-content .author-info-description .author-motto span {
+  display: block;
+  color: #2f7de1;
+  letter-spacing: 0.5px;
+}
+#aside-content .author-info-description .author-motto span + span {
+  margin-top: 12px;
+}
+
+/* ===== 归档 / 标签 / 分类 / 友链 / 留言板 / 关于：顶部图只留图，不显示标题文字 ===== */
+#page-header.not-home-page #page-site-info {
+  display: none !important;
+}
+
+/* ===== 关于页面 ===== */
+.about-quote {
+  margin: 0 0 34px;
+  padding: 30px 24px;
+  border: 1px solid #e3e9fb;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #eef3ff 0%, #f2f1ff 55%, #f6edff 100%);
+  text-align: center;
+}
+.about-quote .quote-main {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #38404f;
+}
+.about-quote .quote-sub {
+  margin: 14px 0 0;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #7b8296;
+}
+.about-text p {
+  margin: 0 0 22px;
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 2;
+  color: #4c5566;
+}
+.about-text p strong {
+  color: #38404f;
+}
+.about-text .about-sign {
+  margin-top: 34px;
+  text-indent: 0;
+  text-align: right;
+  color: #5c6474;
+}
+@media (max-width: 768px) {
+  .about-quote { padding: 24px 16px; }
+  .about-quote .quote-main { font-size: 18px; }
+  .about-quote .quote-sub { font-size: 13px; letter-spacing: 1px; }
+}
