@@ -635,8 +635,8 @@ twikoo:
 # https://giscus.app/
 giscus:
   repo: lin366166/lin366166.github.io
-  repo_id: R_kgDOVer8-A
-  category_id: DIC_kwDOVer8-M4DKTHm   # Discussions 分类：General
+  repo_id: R_kgDOVkMPrA
+  category_id: DIC_kwDOVkMPrM4DKgFk   # Discussions 分类：General
   light_theme: light
   dark_theme: dark
   js:
