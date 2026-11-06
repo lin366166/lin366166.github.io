@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lin366166.github.io/link/index.html</loc>
+    <loc>https://9o9.cc.cd/link/index.html</loc>
+    
+    <lastmod>2026-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://9o9.cc.cd/about/index.html</loc>
     
     <lastmod>2026-11-05</lastmod>
     
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://lin366166.github.io/about/index.html</loc>
+    <loc>https://9o9.cc.cd/message/index.html</loc>
     
     <lastmod>2026-11-05</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://lin366166.github.io/message/index.html</loc>
+    <loc>https://9o9.cc.cd/categories/index.html</loc>
     
     <lastmod>2026-11-05</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://lin366166.github.io/categories/index.html</loc>
+    <loc>https://9o9.cc.cd/tags/index.html</loc>
     
     <lastmod>2026-11-05</lastmod>
     
@@ -38,16 +47,7 @@
   </url>
   
   <url>
-    <loc>https://lin366166.github.io/tags/index.html</loc>
-    
-    <lastmod>2026-11-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lin366166.github.io/2026/11/06/hello-world/</loc>
+    <loc>https://9o9.cc.cd/2026/11/06/hello-world/</loc>
     
     <lastmod>2026-11-05</lastmod>
     
@@ -57,7 +57,7 @@
   
 
   <url>
-    <loc>https://lin366166.github.io/</loc>
+    <loc>https://9o9.cc.cd/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -65,7 +65,7 @@
 
   
   <url>
-    <loc>https://lin366166.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://9o9.cc.cd/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -74,7 +74,7 @@
 
   
   <url>
-    <loc>https://lin366166.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://9o9.cc.cd/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
