@@ -537,7 +537,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: Giscus
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -634,13 +634,16 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo:
-  repo_id:
-  category_id:
+  repo: lin366166/lin366166.github.io
+  repo_id: R_kgDOVer8-A
+  category_id: DIC_kwDOVer8-M4DKTHm   # Discussions 分类：General
   light_theme: light
   dark_theme: dark
   js:
   option:
+    data-lang: zh-CN
+    data-input-position: top
+    data-reactions-enabled: 0   # 关闭评论区表情
 
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
