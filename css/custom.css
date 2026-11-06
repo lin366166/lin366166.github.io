@@ -273,7 +273,18 @@
   white-space: nowrap;
   opacity: .88;
 }
-/* 窄屏导航空间有限，只保留中文名 */
+/* 窄屏同样显示完整的中英文站点名：缩小字号，避免被主题单行省略号截断 */
 @media (max-width: 768px) {
-  #blog-info .site-name-en { display: none; }
+  #blog-info {
+    min-width: 0;
+    font-size: 15px;
+  }
+  #blog-info .site-name-en {
+    display: inline;
+    font-size: .78em;
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 340px) {
+  #blog-info { font-size: 14px; }
 }
