@@ -288,3 +288,10 @@
 @media (max-width: 340px) {
   #blog-info { font-size: 14px; }
 }
+
+/* ===== 首页顶部简介下方的 GitHub 社交图标 =====
+   主题默认只在 ≤768px 用 display:block 显示它（桌面本来就是 none），
+   这里统一覆盖为隐藏，效果是全站都不再出现该图标；侧栏的 GitHub 按钮保留。 */
+#site_social_icons {
+  display: none !important;
+}
