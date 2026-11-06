@@ -4,7 +4,7 @@ cd /d "%~dp0"
 
 echo ============================================
 echo  Hexo 8.1.2 + Butterfly 5.7.0 local server
-echo  Open http://localhost:4001 in your browser
+echo  Open http://localhost:4000 in your browser
 echo  Press Ctrl+C to stop
 echo ============================================
 
@@ -37,7 +37,7 @@ if not exist "%~dp0node_modules\hexo\bin\hexo" (
 
 echo Using Node: %NODE_EXE%
 echo.
-"%NODE_EXE%" "%~dp0node_modules\hexo\bin\hexo" server -p 4001
+"%NODE_EXE%" "%~dp0node_modules\hexo\bin\hexo" server -p 4000
 
 echo.
 echo Hexo server stopped.
