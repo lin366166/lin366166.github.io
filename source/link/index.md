@@ -4,6 +4,7 @@ date: 2026-11-06 00:53:00
 type: "link"
 top_img: /img/header-02.webp
 description: '欢迎交换友链，满足下面三条就可以提交。'
+comments: false
 ---
 <div class="link-apply">
   <h2 class="link-apply-title">申请友链</h2>

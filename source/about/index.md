@@ -4,6 +4,7 @@ date: 2026-11-06 00:30:00
 type: "about"
 top_img: /img/header-04.webp
 description: '吾名花老湿，年近不惑。'
+comments: false
 ---
 <div class="about-quote">
 <p class="quote-main">你我皆凡人，生在人世间，终日奔波苦，一刻不得闲。</p>
