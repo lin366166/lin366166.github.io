@@ -33,6 +33,6 @@ description: '欢迎交换友链，满足下面三条就可以提交。'
   </div>
   <div class="link-apply-actions">
     <a class="link-apply-btn link-apply-btn-blue" href="/message/"><i class="fas fa-pen-to-square"></i>申请友链</a>
-    <button type="button" class="link-apply-btn link-apply-btn-purple" id="copySiteInfo" data-clip="博客名称：花老湿博客&#10;博客地址：https://lin366166.github.io&#10;博客简介：闲时追番，忙时偷闲；蒜了蒜了，搞不赢的&#10;博客头像：https://lin366166.github.io/img/butterfly-icon.webp"><i class="fas fa-clipboard"></i>复制本站信息</button>
+    <button type="button" class="link-apply-btn link-apply-btn-purple" id="copySiteInfo" data-clip="博客名称：花老湿博客&#10;博客地址：https://9o9.cc.cd&#10;博客简介：闲时追番，忙时偷闲；蒜了蒜了，搞不赢的&#10;博客头像：https://9o9.cc.cd/img/butterfly-icon.webp"><i class="fas fa-clipboard"></i>复制本站信息</button>
   </div>
 </div>
