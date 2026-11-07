@@ -19,7 +19,7 @@ comments: false
 <div class="about-info">
   <div class="info-title">找到我</div>
   <div class="contact-btns">
-    <button class="contact-btn" type="button" data-copy="1609920992" title="点击复制 QQ 号 1609920992">
+    <button class="contact-btn" type="button" data-copy="1609920992" title="QQ：1609920992">
       <i class="fab fa-qq" aria-hidden="true"></i><span>QQ</span>
     </button>
     <a class="contact-btn" href="mailto:366166@live.com" title="366166@live.com">
