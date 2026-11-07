@@ -17,7 +17,7 @@ comments: false
 <p class="about-sign">丙午年年月　花老湿</p>
 </div>
 <div class="about-info">
-  <div class="info-title">找到我</div>
+  <div class="info-title">花老湿</div>
   <div class="contact-btns">
     <button class="contact-btn" type="button" data-copy="1609920992" title="QQ：1609920992">
       <i class="fab fa-qq" aria-hidden="true"></i><span>QQ</span>
