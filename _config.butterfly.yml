@@ -19,12 +19,13 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  友链: /link/ || fas fa-link
   留言板: /message/ || fas fa-comment-dots
   关于: /about/ || fas fa-user
+  # 以下入口已从导航隐藏，页面仍可通过网址访问；需要恢复时取消注释即可
+  # 归档: /archives/ || fas fa-archive
+  # 标签: /tags/ || fas fa-tags
+  # 分类: /categories/ || fas fa-folder-open
+  # 友链: /link/ || fas fa-link
 
 # --------------------------------------
 # Code Blocks Settings
@@ -478,7 +479,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use: local_search
+  # 已隐藏顶部导航搜索按钮，留空即不启用；需要恢复时填回 local_search
+  use:
   placeholder: 搜索文章
 
   # Algolia Search
