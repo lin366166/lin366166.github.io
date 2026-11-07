@@ -16,3 +16,17 @@ comments: false
 <p>人生于世，既至则安，善度余日。</p>
 <p class="about-sign">丙午年年月　花老湿</p>
 </div>
+<div class="about-info">
+  <div class="info-title">找到我</div>
+  <div class="contact-btns">
+    <button class="contact-btn" type="button" data-copy="1609920992" title="点击复制 QQ 号 1609920992">
+      <i class="fab fa-qq" aria-hidden="true"></i><span>QQ</span>
+    </button>
+    <a class="contact-btn" href="mailto:366166@live.com" title="366166@live.com">
+      <i class="fas fa-envelope" aria-hidden="true"></i><span>E-mail</span>
+    </a>
+    <a class="contact-btn" href="https://github.com/lin366166" target="_blank" rel="noopener" title="github.com/lin366166">
+      <i class="fab fa-github" aria-hidden="true"></i><span>Github</span>
+    </a>
+  </div>
+</div>

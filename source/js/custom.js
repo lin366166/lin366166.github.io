@@ -110,3 +110,61 @@
     document.addEventListener('pjax:complete', setupLinkApply);
   }
 })();
+
+/* 关于页：QQ 按钮点击复制号码（本地 http 预览降级到 execCommand） */
+(function () {
+  var toastTimer;
+
+  function showToast (msg) {
+    var el = document.querySelector('.link-apply-toast');
+    if (!el) {
+      el = document.createElement('div');
+      el.className = 'link-apply-toast';
+      el.setAttribute('role', 'status');
+      document.body.appendChild(el);
+    }
+    el.textContent = msg;
+    el.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.classList.remove('show'); }, 2400);
+  }
+
+  function legacyCopy (text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    return ok;
+  }
+
+  function setupContact () {
+    var btn = document.querySelector('.contact-btn[data-copy]');
+    if (!btn || btn.getAttribute('data-copy-bound')) return;
+    btn.setAttribute('data-copy-bound', '1');
+
+    btn.addEventListener('click', function () {
+      var text = btn.getAttribute('data-copy') || '';
+      var done = function () { showToast('QQ 号已复制：' + text); };
+      var fallback = function () {
+        showToast(legacyCopy(text) ? 'QQ 号已复制：' + text : '复制失败，请手动复制：' + text);
+      };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(done).catch(fallback);
+      } else {
+        fallback();
+      }
+    });
+  }
+
+  setupContact();
+  if (!window.__contactPjaxBound) {
+    window.__contactPjaxBound = true;
+    document.addEventListener('pjax:complete', setupContact);
+  }
+})();

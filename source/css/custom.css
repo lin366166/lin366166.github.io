@@ -115,6 +115,92 @@
   .about-quote .quote-sub { font-size: 13px; letter-spacing: 1px; }
 }
 
+/* ===== 关于页：联系方式（标题与三个小图标按钮同一行） =====
+   细线 + 描边按钮，不加渐变和阴影，保持简约；窄屏仍保持一行。 */
+.about-info {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 42px;
+  padding-top: 28px;
+  border-top: 1px solid var(--hr-border, #e3e8f0);
+  text-align: left;
+}
+.about-info .info-title {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: var(--font-color, #38404f);
+}
+.about-info .info-title::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 13px;
+  margin-right: 10px;
+  vertical-align: -2px;
+  border-radius: 2px;
+  background: #49b1f5;
+}
+#article-container .contact-btns {
+  flex: 0 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: 0;
+}
+#article-container .contact-btn {
+  flex: 0 0 auto;
+  min-width: 92px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border: 1px solid var(--hr-border, #e3e8f0);
+  border-radius: 10px;
+  background: var(--card-bg, #fff);
+  color: var(--font-color, #4c5566);
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color .2s, color .2s, transform .2s;
+}
+#article-container .contact-btn i { font-size: 14px; color: #49b1f5; }
+#article-container .contact-btn:hover {
+  border-color: #49b1f5;
+  color: #49b1f5;
+  transform: translateY(-2px);
+}
+#article-container .contact-btn:hover i { color: inherit; }
+[data-theme='dark'] #article-container .contact-btn {
+  border-color: #3a4050;
+  background: #242936;
+}
+@media (max-width: 768px) {
+  .about-info { margin-top: 34px; padding-top: 22px; gap: 10px; }
+  .about-info .info-title { font-size: 13px; letter-spacing: 0; }
+  .about-info .info-title::before { height: 12px; margin-right: 7px; }
+  #article-container .contact-btns { gap: 6px; }
+  #article-container .contact-btn { min-width: 0; padding: 7px 8px; gap: 4px; font-size: 11px; }
+  #article-container .contact-btn i { font-size: 12px; }
+}
+@media (max-width: 380px) {
+  .about-info { gap: 8px; }
+  .about-info .info-title::before { display: none; }
+  #article-container .contact-btn { padding: 6px; font-size: 10px; }
+}
+
 /* ===== 友链页：申请友链卡片 ===== */
 #article-container .link-apply {
   margin: 4px 0 30px;
